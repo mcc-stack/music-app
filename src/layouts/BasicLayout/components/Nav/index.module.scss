@@ -1,0 +1,94 @@
+@import '@/styles/variable.scss';
+
+.top_bar {
+  background-color: $bgc;
+}
+
+.nav {
+  margin: 0 auto;
+  width: 1100px;
+  overflow: hidden;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_item {
+  padding: 0 19px;
+}
+
+.menu_link {
+  line-height: 70px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.menu_item:hover {
+  background-color: #000;
+}
+
+.menu_item:hover > .menu_link {
+  color: #fff;
+}
+
+.menu_item:last-child {
+  position: relative;
+}
+
+.menu_item:last-child::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: 6px;
+  right: -22px;
+  background: url('../../../../assets/img/topbar.png') no-repeat -179px 8px;
+}
+
+.nav_input {
+  // line-height: 70px;
+  margin: 17px 0 0 60px;
+  position: relative;
+}
+
+.nav_input::after {
+  content: '';
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background: url('../../../../assets/img/topbar.png') no-repeat 0 -99px;
+  left: 0;
+  top: 0;
+}
+
+.nav_input > input {
+  border-radius: 35px;
+  line-height: 16px;
+  font-size: 12px;
+  height: 32px;
+  color: #333;
+  padding-left: 30px;
+}
+
+.creator_center {
+  width: 88px;
+  height: 32px;
+  margin: 19px 0 0 12px;
+  border-radius: 44px;
+  border: 1px solid #4f4f4f;
+}
+
+.creator_center:hover {
+  cursor: pointer;
+}
+
+.creator_center a {
+  padding-left: 16px;
+  font-size: 12px;
+  width: 72px;
+  height: 30px;
+  line-height: 32px;
+  color: #ccc;
+}

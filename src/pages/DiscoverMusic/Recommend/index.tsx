@@ -1,7 +1,7 @@
 import React from 'react';
-
+import style from './index.module.scss';
 function Recommend() {
-  return <div>推荐</div>;
+  return <div className={style.recommend}>推荐</div>;
 }
 
 export default Recommend;

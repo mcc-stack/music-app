@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "buildOnSave": false,
+  "baseUrl": ".",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "build",

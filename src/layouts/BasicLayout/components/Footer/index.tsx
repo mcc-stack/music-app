@@ -1,7 +1,13 @@
 import React from 'react';
+import logo from '@/assets/img/footer.png';
+import style from './index.module.scss';
 
 function Footer() {
-  return <div>我是尾部Footer</div>;
+  return (
+    <div>
+      <img src={logo} className={style.footer} />
+    </div>
+  );
 }
 
 export default Footer;

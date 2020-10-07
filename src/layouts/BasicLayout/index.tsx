@@ -4,11 +4,11 @@ import Nav from './components/Nav';
 
 function BasicLayout({ children }) {
   return (
-    <>
+    <div>
       <Nav />
       <div>{children}</div>
       <Footer />
-    </>
+    </div>
   );
 }
 
